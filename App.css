@@ -1,0 +1,82 @@
+.square {
+  background: #fff;
+  border: 2px solid #61dafb;
+  float: left;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 64px;
+  height: 87px;
+  margin-right: -2px;
+  margin-top: -2px;
+  padding: 0;
+  text-align: center;
+  width: 87px;
+  transition: all 0.3s ease;
+}
+.square{
+  align-items: center;
+  
+}
+
+.square:hover {
+  background: #d4f4ff;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+.board {
+  background-color: #87ceeb; /* sky blue color */
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* shadow effect */
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+
+.status {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d4f4ff; /* Set a background color */
+}
+
+.game-message {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #61dafb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* shadow effect */
+  font-size: 24px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-message button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.game-message button:hover {
+  background-color: #4fa8db;
+}
